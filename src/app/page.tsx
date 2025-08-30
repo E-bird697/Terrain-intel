@@ -43,7 +43,7 @@ interface TerrainAnalysis {
 }
 
 export default function Home() {
-  const [selectedAOI, setSelectedAOI] = useState<any>(null);
+  const [selectedAOI, setSelectedAOI] = useState<any>(null); // eslint-disable-line @typescript-eslint/no-unused-vars
   const [terrainAnalysis, setTerrainAnalysis] = useState<TerrainAnalysis | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
