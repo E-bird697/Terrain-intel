@@ -1,0 +1,32 @@
+{
+  "name": "terrain-intel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.2.0",
+    "leaflet": "^1.9.4",
+    "leaflet-draw": "^1.0.4",
+    "next": "15.5.2",
+    "osmtogeojson": "^3.0.0-beta.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/leaflet": "^1.9.20",
+    "@types/leaflet-draw": "^1.0.12",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "typescript": "^5"
+  }
+}
